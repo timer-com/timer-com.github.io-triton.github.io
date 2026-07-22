@@ -93,6 +93,40 @@
             font-weight: bold;
             margin: 10px 0;
         }
+        /* ЛОГОТИП TC PRESENTS */
+        .logo-container {
+            background-color: #0a0a0a;
+            border: 3px solid #00ff00;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: center;
+            font-family: "Courier New", Courier, monospace;
+        }
+        .logo-ascii {
+            color: #00ff00;
+            font-size: 12px;
+            line-height: 1.3;
+            white-space: pre;
+            display: inline-block;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+        .logo-slogan {
+            color: #00ff00;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 8px;
+            letter-spacing: 3px;
+            border-top: 1px solid #00ff00;
+            padding-top: 8px;
+            text-transform: uppercase;
+        }
+        .logo-year {
+            color: #666666;
+            font-size: 11px;
+            margin-top: 5px;
+            letter-spacing: 5px;
+        }
         ul, ol {
             margin-top: 5px;
             margin-bottom: 10px;
@@ -136,9 +170,30 @@
     <tr>
         <td>
 
-            <!-- ШАПКА С АВТОРОМ И НАЗНАЧЕНИЕМ -->
+            <!-- ===== ЛОГОТИП TC PRESENTS ===== -->
+            <div class="logo-container">
+                <div class="logo-ascii">
+    ████████╗ ██████╗    ██████╗ ██████╗ ███████╗███████╗███████╗███╗   ██╗████████╗███████╗
+    ╚══██╔══╝██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝████╗  ██║╚══██╔══╝██╔════╝
+       ██║   ██║         ██████╔╝██████╔╝█████╗  ███████╗███████╗██╔██╗ ██║   ██║   ███████╗
+       ██║   ██║         ██╔═══╝ ██╔══██╗██╔══╝  ╚════██║╚════██║██║╚██╗██║   ██║   ╚════██║
+       ██║   ╚██████╗    ██║     ██║  ██║███████╗███████║███████║██║ ╚████║   ██║   ███████║
+       ╚═╝    ╚═════╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+                </div>
+                <div style="color:#00ff00; font-size:16px; font-weight:bold; margin:5px 0; letter-spacing:4px;">
+                    ═══ PRESENTS ═══
+                </div>
+                <div class="logo-slogan">
+                    «Будущее ближе, чем кажется»
+                </div>
+                <div class="logo-year">
+                    TIMER-COMMUNITY ● 2026 ● MACHINE PROTOCOL
+                </div>
+            </div>
+
+            <!-- ШАПКА С АВТОРОМ -->
             <div class="author-box">
-                © 2026 | TIMER-COMMUNITY
+                © 2026 | TC — TIMER-COMMUNITY
             </div>
 
             <h1>■ LINGUA TEXTA ■</h1>
@@ -157,7 +212,7 @@
 
             <p><strong>Статус:</strong> Активный протокол<br>
             <strong>Дата публикации:</strong> 21 июля 2026 года<br>
-            <strong>Авторское сообщество:</strong> Timer-community<br>
+            <strong>Авторское сообщество:</strong> Timer-community (TC)<br>
             <strong>Основное назначение:</strong> Общение человека с искусственным интеллектом и строгая передача команд.</p>
             <hr>
 
@@ -203,7 +258,7 @@
             <!-- РАЗДЕЛ 2 -->
             <a name="philosophy"></a>
             <h2>2. Философия и принципы работы</h2>
-            <p>Язык основан на трёх китах, разработанных сообществом <strong>Timer-community</strong>:</p>
+            <p>Язык основан на трёх китах, разработанных сообществом <strong>Timer-community (TC)</strong>:</p>
             <ol>
                 <li><strong>Типизация реальности</strong>: всё в мире делится на 4 класса:
                     <ul>
@@ -330,7 +385,7 @@
             </div>
 
             <div class="note">
-                <strong>Важно:</strong> Данный промт был разработан <strong>Timer-community</strong> для обеспечения строгого соблюдения протокола Lingua Texta в любом диалоге с ИИ.
+                <strong>Важно:</strong> Данный промт был разработан <strong>Timer-community (TC)</strong> для обеспечения строгого соблюдения протокола Lingua Texta в любом диалоге с ИИ.
             </div>
             <hr>
 
@@ -394,7 +449,7 @@
             <p><strong>Ответ:</strong> Базовый уровень осваивается за 1-2 часа. Вам не нужно заучивать тысячи слов — достаточно освоить систему корней и типизации, а остальное собирается как конструктор.</p>
 
             <p><strong>Вопрос:</strong> Кто разработал этот язык?</p>
-            <p><strong>Ответ:</strong> Язык был разработан сообществом <strong>Timer-community</strong> в 2026 году как открытый протокол для общения с ИИ.</p>
+            <p><strong>Ответ:</strong> Язык был разработан сообществом <strong>Timer-community (TC)</strong> в 2026 году как открытый протокол для общения с ИИ.</p>
 
             <p><strong>Вопрос:</strong> Можно ли использовать Lingua Texta для поэзии?</p>
             <p><strong>Ответ:</strong> Технически — да. Но язык создавался для точности, а не для красоты. Для поэзии существует язык «Эхо» (Ého) — эмоциональный и мелодичный, также разработанный Timer-community.</p>
@@ -403,11 +458,18 @@
             <p><strong>Ответ:</strong> Отключите протокол командой «Отключи протокол» и объясните свою мысль на русском. Затем включите протокол обратно.</p>
             <hr>
 
-            <!-- ПОДВАЛ С АВТОРОМ -->
+            <!-- ПОДВАЛ С ЛОГОТИПОМ И АВТОРОМ -->
             <div class="footer">
-                <div class="author-box" style="background-color:#222222; color:#00ff00; font-size:14px; letter-spacing:1px;">
-                    ⚡ LINGUA TEXTA v1.0 | TIMER-COMMUNITY ⚡
+                <!-- Мини-лого в подвале -->
+                <div style="background-color:#0a0a0a; border:1px solid #00ff00; padding:8px; margin-bottom:10px;">
+                    <div style="color:#00ff00; font-family:'Courier New',monospace; font-size:11px; letter-spacing:2px;">
+                        [ TC — TIMER-COMMUNITY ] ● 2026 ● LINGUA TEXTA v1.0
+                    </div>
+                    <div style="color:#00aa00; font-family:'Courier New',monospace; font-size:10px; margin-top:3px;">
+                        «Будущее ближе, чем кажется»
+                    </div>
                 </div>
+
                 <p style="margin-top:10px;">
                     Документация создана в стиле раннего интернета (Web 1.0).<br>
                     Все права сохранены. 2026 год.<br>
@@ -417,6 +479,9 @@
                     Язык создан как строгий протокол общения с машинами.<br>
                     Не для людей. Не для поэзии. Только для логики и исполнения.
                 </p>
+                <div style="margin-top:8px; font-size:11px; color:#666666; font-family:'Courier New',monospace;">
+                    TC — TIMER-COMMUNITY ● EST. 2026 ● MACHINE-TO-MACHINE
+                </div>
             </div>
 
         </td>
